@@ -1,28 +1,56 @@
 # Calculadora de Números Complexos
-Calcula: 
--Soma;
--Subtração;
--Multiplicação;
--Exponenciação.
+<p>Calcula:</p>
+<ul>
+  <li>Soma;</li>
+  <li>Subtração;</li>
+  <li>Multiplicação;</li>
+  <li>Exponenciação;</li>
+</ul>
 
-# Exemplo de uso
-a = Complexo(1, 1) # número complexo "1+1i"
-b = Complexo(1, 1/3) # número complexo "-2+1i"
-c = Complexo(-6/5, 3) # número complexo "-(6/5)+3i" 
+## Como funciona
+<p>O programa calcula separadamente a parte real e imaginária dos números complexos, e depois imprime o resultado na forma 'a + bi'.</p>
+<ul>
+  <li>Para calcular, o programa reescreve os métodos de soma, subtração, multiplicação e exponenciação para a classe 'Complexo'</li>
+  <li>Para imprimir, o programa reescreve o método __str__() para exibir número complexo já formatado na forma 'a + bi'</li>
+</ul>
 
-# Operações ()
-soma = a + b
-subtracao = a - b
-multiplicacao = b * c
-exponenciação = c**3
+## Exemplo de uso
+Para criar um Número Complexo:
+- a = Complexo(1, 1)  ------> "1+1i"
+- b = Complexo(1, 1/3)  ---->"-2+1i"
+- c = Complexo(-6/5, 3)  ---> "-(6/5)+3i"
 
-# Exemplo
-eq = a * b + c**2
+Para fazer uma operação:
+- soma = a + b
+- subtracao = a - b
+- multiplicacao = b * c
+- exponenciacao = c**3
+- equação = a * b + c**2
 
-# Saída esperada:
-#
-# Soma: 2+1.333i
-# Subtração: 0+0.667i
-# Multiplicação: -2.2+2.6i
-# Potênciacao: 30.672-14.04i
-# Exemplo: -6.893-5.867i
+## Resultados
+<table>
+  <tr>
+    <th>Operação</th>
+    <th>Resultado</th>
+  </tr>
+  <tr>
+    <td>Soma</td>
+    <td>2+1.333i</td>
+  </tr>
+  <tr>
+    <td>Subtração</td>
+    <td>0+0.667i</td>
+  </tr>
+  <tr>
+    <td>Multiplicação</td>
+    <td>-2.2+2.6i</td>
+  </tr>
+  <tr>
+    <td>Potênciação</td>
+    <td>30.672-14.04i</td>
+  </tr>
+  <tr>
+    <td>Equação</td>
+    <td>-6.893-5.867i</td>
+  </tr>
+</table>
