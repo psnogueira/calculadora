@@ -17,7 +17,7 @@
 ## Exemplo de uso
 Para criar um Número Complexo:
 - a = Complexo(1, 1)  ------> "1+1i"
-- b = Complexo(1, 1/3)  ---->"-2+1i"
+- b = Complexo(1, 1/3)  ---->"1+(1/3)i"
 - c = Complexo(-6/5, 3)  ---> "-(6/5)+3i"
 
 Para fazer uma operação:
