@@ -37,7 +37,7 @@ class Complexo:
 
 # Exemplo de uso
 a = Complexo(1, 1) # número complexo "1+1i"
-b = Complexo(1, 1/3) # número complexo "-2+1i"
+b = Complexo(1, 1/3) # número complexo "1+(1/3)i"
 c = Complexo(-6/5, 3) # número complexo "-(6/5)+3i" 
 
 # Operações ()
